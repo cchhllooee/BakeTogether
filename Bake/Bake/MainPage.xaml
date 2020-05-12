@@ -6,12 +6,12 @@
              xmlns:local="clr-namespace:Bake.Views.Pages"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Bottom"
-            BarBackgroundColor="#C9F5E3"
-            BarTextColor="#FFFFFF"
+            BarBackgroundColor="#754043"
+            BarTextColor="#FFFFF2"
              mc:Ignorable="d"
              x:Class="Bake.MainPage"
             >
-    <NavigationPage Title="Home" BarBackgroundColor="#C9F5E3" BarTextColor="#FFFFFF">
+    <NavigationPage Title="Home" BarBackgroundColor="#754043" BarTextColor="#F59A84">
         <x:Arguments>
             <local:HomePage/>
         </x:Arguments>

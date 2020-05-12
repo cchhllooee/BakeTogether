@@ -6,12 +6,13 @@
              mc:Ignorable="d"
              x:Class="Bake.Views.Pages.HomePage"
              Title="Home"
-             BackgroundColor="#FFFFFF">
+             BackgroundColor="#FFFFF2">
     <ContentPage.Content>
         <StackLayout Padding="10,10,10,10">
             <Frame Padding="0" Margin="0" BackgroundColor="White" HasShadow="False" BorderColor="Black" CornerRadius="15" HeightRequest="30">
                 <SearchBar Placeholder="Search..." BackgroundColor="Transparent" PlaceholderColor="#DBE1EC" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
             </Frame>
+            <Label Text="The nest step is to create a data template that loops through the entries in a database and have it show up as a feed for the recipes."></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
