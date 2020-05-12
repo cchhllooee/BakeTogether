@@ -1,16 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Bake.Views.Pages"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="#C9F5E3"
+            BarTextColor="#FFFFFF"
              mc:Ignorable="d"
-             x:Class="Bake.MainPage">
+             x:Class="Bake.MainPage"
+            >
+    <NavigationPage Title="Home" BarBackgroundColor="#C9F5E3" BarTextColor="#FFFFFF">
+        <x:Arguments>
+            <local:HomePage/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="New Post">
+        <x:Arguments>
+            <local:CreatePost/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Suggested">
+        <x:Arguments>
+            <local:Suggested/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Profile">
+        <x:Arguments>
+            <local:ProfilePage/>
+        </x:Arguments>
+    </NavigationPage>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
-</ContentPage>
+</TabbedPage>
