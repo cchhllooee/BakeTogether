@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Bake.Views.Pages.ProfilePage"
-             Title="Profile">
+             x:Class="Bake.Views.Pages.CreateARecipePage"
+             Title="Create A Recipe">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to the profile page"
+            <Label Text="Welcome to Create a Recipe"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

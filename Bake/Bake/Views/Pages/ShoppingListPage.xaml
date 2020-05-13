@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Bake.Views.Pages.Suggested"
-             Title="Suggested">
+             x:Class="Bake.Views.Pages.ShoppingListPage"
+             Title="Your Shopping List">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to sSuggested!"
+            <Label Text="Welcome to your shopping list"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Bake.Views.Pages.CreatePost"
-             Title="New Post">
+             x:Class="Bake.Views.Pages.YourRecipesPage"
+             Title="Your Recipes">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to the New Post Page!"
+            <Label Text="Welcome to Your Recipes!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

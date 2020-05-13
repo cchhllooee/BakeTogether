@@ -9,27 +9,27 @@
             BarBackgroundColor="#754043"
             BarTextColor="#FFFFF2"
              mc:Ignorable="d"
-             x:Class="Bake.MainPage"
-            >
+             x:Class="Bake.MainPage">
     <NavigationPage Title="Home" BarBackgroundColor="#754043" BarTextColor="#F59A84">
         <x:Arguments>
             <local:HomePage/>
         </x:Arguments>
     </NavigationPage>
-    <NavigationPage Title="New Post">
+    <NavigationPage Title="New Recipe">
         <x:Arguments>
-            <local:CreatePost/>
+            <local:CreateARecipePage/>
         </x:Arguments>
     </NavigationPage>
-    <NavigationPage Title="Suggested">
+    <NavigationPage Title="Shopping List">
         <x:Arguments>
-            <local:Suggested/>
+            <local:ShoppingListPage/>
         </x:Arguments>
     </NavigationPage>
-    <NavigationPage Title="Profile">
+    <NavigationPage Title="Your Recipes">
         <x:Arguments>
-            <local:ProfilePage/>
+            <local:YourRecipesPage/>
         </x:Arguments>
     </NavigationPage>
+    
 
 </TabbedPage>

@@ -12,7 +12,7 @@
             <Frame Padding="0" Margin="0" BackgroundColor="White" HasShadow="False" BorderColor="Black" CornerRadius="15" HeightRequest="30">
                 <SearchBar Placeholder="Search..." BackgroundColor="Transparent" PlaceholderColor="#DBE1EC" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
             </Frame>
-            <Label Text="The nest step is to create a data template that loops through the entries in a database and have it show up as a feed for the recipes."></Label>
+            <Label Text="We will see. Remember the app is supposed to keep track of recipes, generate a shopping list of common items on the recipes, with recipes have a voice that can walk you through the process"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

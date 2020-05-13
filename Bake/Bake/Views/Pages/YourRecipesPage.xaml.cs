@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Bake.Views.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CreatePost : ContentPage
+    public partial class YourRecipesPage : ContentPage
     {
-        public CreatePost()
+        public YourRecipesPage()
         {
             InitializeComponent();
         }

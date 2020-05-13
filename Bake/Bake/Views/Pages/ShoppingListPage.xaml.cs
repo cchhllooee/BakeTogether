@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Bake.Views.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Suggested : ContentPage
+    public partial class ShoppingListPage : ContentPage
     {
-        public Suggested()
+        public ShoppingListPage()
         {
             InitializeComponent();
         }
